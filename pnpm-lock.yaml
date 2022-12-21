@@ -21,7 +21,7 @@ specifiers:
   formik: ^2.2.9
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-pro-sidebar: 1.0.0-alpha.9
+  react-pro-sidebar: 0.7.1
   react-router-dom: '6'
   vite: ^4.0.0
   yup: ^0.32.11
@@ -44,7 +44,7 @@ dependencies:
   formik: 2.2.9_react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-pro-sidebar: 1.0.0-alpha.9_ib3m5ricvtkl2cll7qpr2f6lvq
+  react-pro-sidebar: 0.7.1_biqbaboplfbrettd7655fr4n2y
   react-router-dom: 6.5.0_biqbaboplfbrettd7655fr4n2y
   yup: 0.32.11
 
@@ -1679,21 +1679,18 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: false
 
-  /react-pro-sidebar/1.0.0-alpha.9_ib3m5ricvtkl2cll7qpr2f6lvq:
-    resolution: {integrity: sha512-w1ySfoPirlTGXCZW8jfnI7svZ+MqI629r58eWOEjvpy2AAN5C2hHG2/K6fpzwrQCCLhkgGdn6tMRwsZ4DgFjHw==}
+  /react-pro-sidebar/0.7.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Iy1X8ce4t5Vqz4CsyzjwokGUE3/IObgmYzS0ins7/2eWKle0SMUPaWdgMKFIVjtVrMr5vmjPbRicq8FxnVaf8A==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@emotion/react': 11.10.5_kzbn2opkn2327fwg5yzwzya5o4
-      '@emotion/styled': 11.10.5_qvatmowesywn4ye42qoh247szu
       '@popperjs/core': 2.11.6
       classnames: 2.3.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@types/react'
+      react-slidedown: 2.4.7_biqbaboplfbrettd7655fr4n2y
+      resize-observer-polyfill: 1.5.1
     dev: false
 
   /react-refresh/0.14.0:
@@ -1724,6 +1721,17 @@ packages:
       react: 18.2.0
     dev: false
 
+  /react-slidedown/2.4.7_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-HGDfrqo70r1WVE0DwrySPdCT27/2wcZaJYh5kOnmuPSCtjDDJrNkDdn4Ep/cma2VVfwupeAGhbc2pbrGThU6VQ==}
+    peerDependencies:
+      react: ^16.3.0 || 17
+      react-dom: ^16.3.0 || 17
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      tslib: 2.4.1
+    dev: false
+
   /react-transition-group/4.4.5_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
     peerDependencies:
@@ -1751,6 +1759,10 @@ packages:
 
   /reselect/4.1.7:
     resolution: {integrity: sha512-Zu1xbUt3/OPwsXL46hvOOoQrap2azE7ZQbokq61BQfiXvhewsKDwhMeZjTX9sX0nvw1t/U5Audyn1I9P/m9z0A==}
+    dev: false
+
+  /resize-observer-polyfill/1.5.1:
+    resolution: {integrity: sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==}
     dev: false
 
   /resolve-from/4.0.0:
@@ -1823,6 +1835,10 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
+    dev: false
+
+  /tslib/2.4.1:
+    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
     dev: false
 
   /update-browserslist-db/1.0.10_browserslist@4.21.4:
