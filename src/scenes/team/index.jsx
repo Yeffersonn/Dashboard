@@ -88,9 +88,9 @@ const Team = () => {
                     "& .MuiDataGrid-root": {
                         border: "none",
                     },
-                    "& .MuiDataGrid-cell": {
+                    /* "& .MuiDataGrid-cell": {
                         borderBottom: "none !important",
-                    },
+                    }, */
                     "& .name-column--cell": {
                         color: colors.greenAccent[300],
                     },
