@@ -429,6 +429,12 @@ export const mockPieData = [
     value: 584,
     color: "hsl(344, 70%, 50%)",
   },
+  {
+    id: "react",
+    label: "react",
+    value: 604,
+    color: "hsl(344, 70%, 50%)",
+  },
 ];
 
 export const mockLineData = [

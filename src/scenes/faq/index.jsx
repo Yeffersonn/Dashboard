@@ -14,7 +14,7 @@ const FAQ = () => {
         <Box m="20px">
             <Header title="FAQ" subtitle="Página de preguntas frecuentes" />
 
-            <Accordion defaultExpanded sx={{backgroundColor: colors.blueAccent[900]}}>
+            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Una pregunta importante
@@ -28,7 +28,7 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.blueAccent[900]}}>
+            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Otra pregunta importante
@@ -42,7 +42,7 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.blueAccent[900]}}>
+            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Tu pregunta favorita
@@ -56,7 +56,7 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.blueAccent[900]}}>
+            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Alguna pregunta al azar
@@ -70,7 +70,7 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.blueAccent[900]}}>
+            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         La última pregunta
