@@ -137,7 +137,7 @@ const TopBar = () => {
                 >
                     <Avatar
                         alt="Remy Sharp"
-                        src="../../../public/assets/user.png"
+                        src="/assets/user.png"
                     />
                 </StyledBadge>
             </Box>
