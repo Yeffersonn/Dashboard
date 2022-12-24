@@ -89,7 +89,7 @@ const MyProSidebar = () => {
             }}
         >
             <Sidebar
-                breakPoint="md"
+                breakPoint="xxl"
                 rtl={sidebarRTL}
                 backgroundColor={colors.primary[400]}
                 image={sidebarImage}
@@ -168,7 +168,7 @@ const MyProSidebar = () => {
                                     fontWeight="bold"
                                     sx={{ m: "10px 0 0 0" }}
                                 >
-                                    Jeff Dev
+                                    Jefferson
                                 </Typography>
                                 {/* <Typography
                                     variant="h5"

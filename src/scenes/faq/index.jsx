@@ -9,12 +9,21 @@ import { tokens } from "../../theme";
 
 const FAQ = () => {
     const theme = useTheme();
-    const colors = tokens(theme.palette.mode);
+    const mode = theme.palette.mode;
+    const colors = tokens(mode);
     return (
         <Box m="20px">
             <Header title="FAQ" subtitle="Página de preguntas frecuentes" />
 
-            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
+            <Accordion
+                defaultExpanded
+                sx={{
+                    backgroundColor:
+                        mode === "dark"
+                            ? colors.primary[500]
+                            : colors.primary[400],
+                }}
+            >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Una pregunta importante
@@ -28,7 +37,15 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
+            <Accordion
+                defaultExpanded
+                sx={{
+                    backgroundColor:
+                        mode === "dark"
+                            ? colors.primary[500]
+                            : colors.primary[400],
+                }}
+            >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Otra pregunta importante
@@ -42,7 +59,15 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
+            <Accordion
+                defaultExpanded
+                sx={{
+                    backgroundColor:
+                        mode === "dark"
+                            ? colors.primary[500]
+                            : colors.primary[400],
+                }}
+            >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Tu pregunta favorita
@@ -56,7 +81,15 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
+            <Accordion
+                defaultExpanded
+                sx={{
+                    backgroundColor:
+                        mode === "dark"
+                            ? colors.primary[500]
+                            : colors.primary[400],
+                }}
+            >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Alguna pregunta al azar
@@ -70,7 +103,15 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx={{backgroundColor: colors.primary[500]}}>
+            <Accordion
+                defaultExpanded
+                sx={{
+                    backgroundColor:
+                        mode === "dark"
+                            ? colors.primary[500]
+                            : colors.primary[400],
+                }}
+            >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         La última pregunta
